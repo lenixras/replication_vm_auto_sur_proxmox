@@ -2,6 +2,8 @@
 
 Ce dépôt contient un script Bash permettant d'automatiser la réplication (restauration) d'une machine virtuelle (VM) sur un hôte Proxmox à partir de sauvegardes existantes.
 
+**Cas d'usage :** Ce script est particulièrement utile pour répliquer des VMs entre deux nœuds Proxmox lorsque le mode Cluster (et donc la réplication native ZFS) n'est pas activé.
+
 ## Description
 
 Le script `replication_winserv.sh` effectue les actions suivantes :
